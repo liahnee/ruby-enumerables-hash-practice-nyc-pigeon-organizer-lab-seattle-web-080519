@@ -25,7 +25,7 @@ def nyc_pigeon_organizer(data)
       keyvalues_for_name << {key1 => key2_to_values} 
     end
     keyvalues_for_name.length.times do |i|
-    pigeon_list[name][keyvalues_for_name[i].keys[0]] = keyvalues_for_name[i].values[0]
+      pigeon_list[name][keyvalues_for_name[i].keys[0]] = keyvalues_for_name[i].values[0]
     end
   end
   return pigeon_list
